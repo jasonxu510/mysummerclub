@@ -1,8 +1,9 @@
 package com.example.mysummerclub.pojo;
 
 public class EntryItem {
+    //报名记录ID
     private Long id;
-
+    //年龄
     private Integer age;
 
     private String blanckSpaceOne;
@@ -10,23 +11,23 @@ public class EntryItem {
     private String blanckSpaceThree;
 
     private String blanckSpaceTwo;
-
+    //夏令营名称
     private Integer campHeadCount;
-
+    //夏令营ID
     private Long campId;
-
+    //报名者姓名
     private String givenName;
-
+    //学生成绩
     private String grades;
-
+    //所在学校
     private String grammerSchool;
-
+    //手机号
     private String phoneNumber;
-
+    //性别
     private String sex;
-
+    //审核状态
     private String status;
-
+    //报名者ID
     private Long userId;
 
     public Long getId() {

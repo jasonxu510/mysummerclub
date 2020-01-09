@@ -1,6 +1,7 @@
 package com.example.mysummerclub.pojo;
 
 public class Banner {
+    //图片ID
     private Long id;
 
     private String blanckSpaceOne;
@@ -8,11 +9,11 @@ public class Banner {
     private String blanckSpaceThree;
 
     private String blanckSpaceTwo;
-
+    //文字说明
     private String introduce;
-
+    //链接地址
     private String linkUrl;
-
+    //图片链接
     private String url;
 
     public Long getId() {

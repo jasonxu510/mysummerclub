@@ -1,6 +1,7 @@
 package com.example.mysummerclub.pojo;
 
 public class Camp {
+    //夏令营ID
     private Long id;
 
     private String blanckSpaceOne;
@@ -8,21 +9,21 @@ public class Camp {
     private String blanckSpaceThree;
 
     private String blanckSpaceTwo;
-
+    //夏令营相关文件（可下载）
     private String campFileUrl;
-
+    //夏令营名称
     private String campName;
-
+    //夏令营资讯详情
     private String campNewsIfo;
-
+    //夏令营资讯标题
     private String campNewsTitle;
-
+    //夏令营资讯图片链接
     private String campNewsUrl;
-
+    //状态（正在报名，报名结束，默认为正在报名）
     private String campStatus;
-
+    //报名结束时间
     private String endTime;
-
+    //用户ID
     private Long userId;
 
     public Long getId() {
