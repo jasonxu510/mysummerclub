@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcc9301c-f69a-4f31-9d64-0f45a9e8df93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mysummerclub/controller/BannerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mysummerclub/service/BannerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mysummerclub/service/impl/BannerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mysummerclub/controller/CampController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mysummerclub/service/CampService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mysummerclub/service/impl/CampServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mysummerclub/pojo/Banner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mysummerclub/pojo/Banner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mysummerclub/pojo/Camp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mysummerclub/pojo/Camp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mysummerclub/pojo/EntryItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mysummerclub/pojo/EntryItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mysummerclub/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mysummerclub/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mysummerclub/mapper/BannerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mysummerclub/mapper/BannerMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mysummerclub/mapper/CampMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mysummerclub/mapper/CampMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mysummerclub/mapper/EntryItemMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mysummerclub/mapper/EntryItemMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mysummerclub/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mysummerclub/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mysummerclub/pojo/Banner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mysummerclub/pojo/Banner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mysummerclub/pojo/Camp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mysummerclub/pojo/Camp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mysummerclub/pojo/EntryItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mysummerclub/pojo/EntryItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mysummerclub/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mysummerclub/pojo/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -46,6 +54,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -85,7 +97,8 @@
       <option name="presentableId" value="Default" />
       <updated>1578224205192</updated>
       <workItem from="1578224207932" duration="2768000" />
-      <workItem from="1578559461620" duration="3503000" />
+      <workItem from="1578559461620" duration="4477000" />
+      <workItem from="1578641483404" duration="4485000" />
     </task>
     <task id="LOCAL-00001" summary="完成user的相关增删改查及controller功能">
       <created>1578232676865</created>
@@ -94,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578232676865</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完成banner的相关增删改查及controller功能">
+      <created>1578563556042</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578563556043</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,28 +122,61 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完成user的相关增删改查及controller功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成user的相关增删改查及controller功能" />
+    <MESSAGE value="完成banner的相关增删改查及controller功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成banner的相关增删改查及controller功能" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1578561094837">
+    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1578644393556">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1578561094837" />
+    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1578644393556" />
     <state x="260" y="96" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1578224230850">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="260" y="96" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.800@0.0.1280.800" timestamp="1578224230850" />
-    <state x="116" y="2" key="CommitChangelistDialog2" timestamp="1578232676604">
+    <state x="116" y="2" key="CommitChangelistDialog2" timestamp="1578563555883">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="116" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578232676604" />
+    <state x="116" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578563555883" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1578566536920">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578566536920" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1578566536919">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1578566536919" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1578566536919">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1578566536919" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1578566536920">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1578566536920" />
+    <state width="1238" height="212" key="GridCell.Tab.1.bottom" timestamp="1578566536922">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578566536922" />
+    <state width="1238" height="212" key="GridCell.Tab.1.center" timestamp="1578566536921">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1578566536921" />
+    <state width="1238" height="212" key="GridCell.Tab.1.left" timestamp="1578566536920">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1578566536920" />
+    <state width="1238" height="212" key="GridCell.Tab.1.right" timestamp="1578566536921">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1578566536921" />
     <state x="149" y="23" key="SettingsEditor" timestamp="1578224392555">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="149" y="23" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1578224392555" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1578232726988">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1578563576086">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1578232726988" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1578563576086" />
   </component>
 </project>
